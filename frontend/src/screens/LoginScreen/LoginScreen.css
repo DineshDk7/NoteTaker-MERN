@@ -1,0 +1,43 @@
+.loginContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 400px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Title {
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .loginForm {
+  align-items: center;
+} */
+
+.loginButton {
+  text-align: center;
+  color: white;
+}
+
+.loginButton:hover {
+  color: #333333;
+}
+
+.errorText {
+  margin-top: 10px;
+  color: red;
+}
+
+@media only screen and (max-width: 728px) {
+  .Title {
+    font-size: 40px;
+  }
+  .loginContainer {
+    width: 300px;
+  }
+}

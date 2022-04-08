@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: white;
+}
+
+.dropdown:hover {
+  color: white;
+}
+
+.searchContainer {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.searchContainer2 {
+  background-color: white;
+  border-radius: 5px;
+  display: none;
+}
+
+.searchIcon {
+  color: darkgray;
+  margin: 3px;
+  margin-bottom: 5px;
+}
+
+.searchBar {
+  border-radius: 5px;
+  width: 150px;
+  border: none;
+}
+.searchBar:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 728px) {
+  .searchContainer {
+    display: none;
+  }
+
+  .searchContainer2 {
+    display: block;
+  }
+}
